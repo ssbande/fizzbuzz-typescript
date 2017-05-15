@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "lib": ["es6", "dom"],
+        "types": ["reflect-metadata"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "removeComments": false,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "preserveConstEnums": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "outDir": "./build"
+    },
+    "exclude": [
+        "logs",
+        "node_modules"
+    ]
+}
